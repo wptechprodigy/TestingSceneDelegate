@@ -8,6 +8,7 @@
 import XCTest
 @testable import TestingSceneDelegate
 
+@available(iOS 13, *)
 class TestingSceneDelegateTests: XCTestCase {
     func test_emptyJustSoWeHaveAPassingTest() {
         

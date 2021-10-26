@@ -16,6 +16,8 @@
 		04898F4D2727CC64003FCF16 /* TestingSceneDelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04898F4C2727CC64003FCF16 /* TestingSceneDelegateTests.swift */; };
 		04898F5A2727CEBD003FCF16 /* TestingAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04898F592727CEBD003FCF16 /* TestingAppDelegate.swift */; };
 		04898F5C2727CF25003FCF16 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04898F5B2727CF25003FCF16 /* main.swift */; };
+		04898F602727D1C0003FCF16 /* TestingSceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04898F5F2727D1C0003FCF16 /* TestingSceneDelegate.swift */; };
+		04898F632727D3A4003FCF16 /* TestingRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04898F622727D3A4003FCF16 /* TestingRootViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,8 @@
 		04898F4E2727CC64003FCF16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04898F592727CEBD003FCF16 /* TestingAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingAppDelegate.swift; sourceTree = "<group>"; };
 		04898F5B2727CF25003FCF16 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		04898F5F2727D1C0003FCF16 /* TestingSceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingSceneDelegate.swift; sourceTree = "<group>"; };
+		04898F622727D3A4003FCF16 /* TestingRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingRootViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,7 @@
 		04898F4B2727CC64003FCF16 /* TestingSceneDelegateTests */ = {
 			isa = PBXGroup;
 			children = (
+				04898F612727D246003FCF16 /* View Controllers */,
 				04898F582727CE87003FCF16 /* Application Delegates */,
 				04898F4C2727CC64003FCF16 /* TestingSceneDelegateTests.swift */,
 				04898F4E2727CC64003FCF16 /* Info.plist */,
@@ -141,8 +146,17 @@
 			isa = PBXGroup;
 			children = (
 				04898F592727CEBD003FCF16 /* TestingAppDelegate.swift */,
+				04898F5F2727D1C0003FCF16 /* TestingSceneDelegate.swift */,
 			);
 			path = "Application Delegates";
+			sourceTree = "<group>";
+		};
+		04898F612727D246003FCF16 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				04898F622727D3A4003FCF16 /* TestingRootViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +270,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04898F602727D1C0003FCF16 /* TestingSceneDelegate.swift in Sources */,
 				04898F4D2727CC64003FCF16 /* TestingSceneDelegateTests.swift in Sources */,
 				04898F5A2727CEBD003FCF16 /* TestingAppDelegate.swift in Sources */,
+				04898F632727D3A4003FCF16 /* TestingRootViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
